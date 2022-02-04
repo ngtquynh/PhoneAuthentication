@@ -10,12 +10,12 @@ I could only create a `users` database in the back-end url server.
 
 In the project directory, I run the following to install a skeletion of React.
 
-### npx create-react-app my-app
-### cd my-app
+`npx create-react-app my-app`
+`cd my-app`
 
 
 To run the front-end, I do the following from `my-app` folder:
-### npm start
+`npm start`
 
 Here I created the front-end on `./src` folder with the React `App.js`. In the front-end, 
 I created two class inputs: `Phone Number` and `Access Code`, and I retrieve them 
@@ -33,19 +33,19 @@ the `Phone Number` into the database.
 
 To create the back-end, I installed Express API from `my-app` folder. 
 
-## npm install api --save
+`npm install api --save`
 
 I also installed `nodemon` to help with debugging on the back-end server:
 
-## npm install -g nodemon
+`npm install -g nodemon`
 
 Then I adjusted the default port to `9000` in directory `.my-app/api/bin/www`. After that, I added `testAPI.js` into `api.routes`
 folder to test whether the api run correctly. In the back-end, I utilized the `users.js` from directory `.my-app/api/routes`, 
 following by port `9000` to create the JSON database `users` with the url as `http://localhost:9000/users`.
 
 To run the back-end, I do the following when I reached `my-app`. 
-### cd api
-### npm start
+`cd api`
+`npm start`
 
 To recapture, we run the default port for front-end on the url `http://localhost:3000/`, 
 and run the default one for back-end on the url `http://localhost:9000/` as two different servers.
