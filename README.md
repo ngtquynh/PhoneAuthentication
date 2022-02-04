@@ -17,7 +17,7 @@ In the project directory, I run the following to install a skeletion of React.
 
 To run the front-end, I do the following from `my-app` folder:
 `npm start`
-
+### Front-end
 Here I created the front-end on `./src` folder with the React `App.js`. In the front-end, 
 I created two class inputs: `Phone Number` and `Access Code`, and I retrieve them 
 from two React files: `PhoneNumber.js` and `AccessCode.js`. I also added the validating conditions
@@ -32,6 +32,8 @@ processed the data with two back-end functions: `CreateNewAccessCode` and `Valid
 is convenient since the front-end generates the POST functions automatically and adds the random code with
 the `Phone Number` into the database.
 
+
+### Back-end
 To create the back-end, I installed Express API from `my-app` folder. 
 
 `npm install api --save`
@@ -50,6 +52,8 @@ To run the back-end, I do the following when I reached `my-app`.
 
 `npm start`
 
+
+### Running together
 To recapture, we run the default port for front-end on the url `http://localhost:3000/`, 
 and run the default one for back-end on the url `http://localhost:9000/` as two different servers.
 However, to check the database input, we use  `http://localhost:9000/users/` instead to keep track 
