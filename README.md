@@ -38,11 +38,11 @@ I could only create a `users` database in the back-end url server.
 ### Back-end
 - To create the back-end, I installed Express API from `my-app` folder. 
 
-`npm install api --save`
+  `npm install api --save`
 
 - I also installed `nodemon` to help with debugging on the back-end server:
 
-`npm install -g nodemon`
+  `npm install -g nodemon`
 
 - Then I adjusted the default port to `9000` in directory `.my-app/api/bin/www`. After that, I added `testAPI.js` into `api.routes`
   folder to test whether the api run correctly. In the back-end, I utilized the `users.js` from directory `.my-app/api/routes`, 
@@ -50,9 +50,9 @@ I could only create a `users` database in the back-end url server.
 
 - To run the back-end, I do the following when I reached `my-app`. 
 
-`cd api`
+  `cd api`
 
-`npm start`
+  `npm start`
 
 
 ### Running together
@@ -65,31 +65,31 @@ I could only create a `users` database in the back-end url server.
   `CreateNewAccessCode` generate a random 6-digits code and add to the database. For example, the default data for 
   `users` database is:
 
-              `{"success":true,"users":[{"phone":"1234567890","code":"763839"}]}`
+   ``{"success":true,"users":[{"phone":"1234567890","code":"763839"}]}``
 
 - Then let's say we submit `Phone Number` as `9798798789` to the front-end, then the backend generates the `AccessCode` as `321942`.
   If we open the `users` url, we would see the following JSON data in `http://localhost:9000/users/`.
 
-  {"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"321942"}]}
+  ``{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"321942"}]}``
 
 
 - Now, if I submit `Phone Number` as `9798798789` again, the databases updates the new generated code.
 
-  {"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"670964"}]}
+  ``{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"670964"}]}``
 
 
 - Now, we input our same `Phone Number` with an `Access Code` we saw from the database. Let's say it is for 
- number `8098098098` and the code is `670964`. The front-end will generate `{success: true}`.
+  number `8098098098` and the code is `670964`. The front-end will generate `{success: true}`.
 
-      https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png
+  ``https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png``
 
 
 - Then the `Phone Number` will be assigned to an empty string as the following in `http://localhost:9000/users/`.
 
-  {"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":""}]}
+  ``{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":""}]}``
 
 
 - If the `Access Code` does not match from the one in the database, the front-end will generate `{success: false}`.
 
-      https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png 
+  ``https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png`` 
 
