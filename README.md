@@ -11,6 +11,7 @@ I could only create a `users` database in the back-end url server.
 In the project directory, I run the following to install a skeletion of React.
 
 `npx create-react-app my-app`
+
 `cd my-app`
 
 
@@ -44,7 +45,9 @@ folder to test whether the api run correctly. In the back-end, I utilized the `u
 following by port `9000` to create the JSON database `users` with the url as `http://localhost:9000/users`.
 
 To run the back-end, I do the following when I reached `my-app`. 
+
 `cd api`
+
 `npm start`
 
 To recapture, we run the default port for front-end on the url `http://localhost:3000/`, 
