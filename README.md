@@ -75,7 +75,7 @@ I could only create a `users` database in the back-end url server.
 
 - Now, if I submit `Phone Number` as `9798798789` again, the databases updates the new generated code.
 
-   `{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"670964"}]}`
+      `{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"670964"}]}`
 
 
 - Now, we input our same `Phone Number` with an `Access Code` we saw from the database. Let's say it is for 
