@@ -81,7 +81,7 @@ I could only create a `users` database in the back-end url server.
 - Now, we input our same `Phone Number` with an `Access Code` we saw from the database. Let's say it is for 
  number `8098098098` and the code is `670964`. The front-end will generate `{success: true}`.
 
-            <p align="center">https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png<p\>
+            ![alt text]https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png
 
 
 - Then the `Phone Number` will be assigned to an empty string as the following in `http://localhost:9000/users/`.
@@ -91,5 +91,5 @@ I could only create a `users` database in the back-end url server.
 
 - If the `Access Code` does not match from the one in the database, the front-end will generate `{success: false}`.
 
-         <p align="center">https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png<p\>
+         ![alt text]https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png
 
