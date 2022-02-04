@@ -65,23 +65,23 @@ I could only create a `users` database in the back-end url server.
   `CreateNewAccessCode` generate a random 6-digits code and add to the database. For example, the default data for 
   `users` database is:
 
-           <p align="center">``{"success":true,"users":[{"phone":"1234567890","code":"763839"}]}`<p\>
+              `{"success":true,"users":[{"phone":"1234567890","code":"763839"}]}`
 
 - Then let's say we submit `Phone Number` as `9798798789` to the front-end, then the backend generates the `AccessCode` as `321942`.
   If we open the `users` url, we would see the following JSON data in `http://localhost:9000/users/`.
 
-<p align="center">``{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"321942"}]}`<p\>
+      `{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"321942"}]}`
 
 
 - Now, if I submit `Phone Number` as `9798798789` again, the databases updates the new generated code.
 
- <p align="center">`{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"670964"}]}`<p\>
+   `{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"670964"}]}`
 
 
 - Now, we input our same `Phone Number` with an `Access Code` we saw from the database. Let's say it is for 
  number `8098098098` and the code is `670964`. The front-end will generate `{success: true}`.
 
-            ![alt text]https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png
+            https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png
 
 
 - Then the `Phone Number` will be assigned to an empty string as the following in `http://localhost:9000/users/`.
@@ -91,5 +91,5 @@ I could only create a `users` database in the back-end url server.
 
 - If the `Access Code` does not match from the one in the database, the front-end will generate `{success: false}`.
 
-         ![alt text]https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png
+              https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png
 
