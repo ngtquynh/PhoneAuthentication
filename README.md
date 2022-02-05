@@ -19,6 +19,8 @@ I could only create a `users` database in the back-end URL server.
   
   `npm start`
 
+- Here the folder `my-app` has been changed to `coding_challenge`. However, the implementation is the same so I temporarily keep as `my-app`.
+
 ### Front-end
 - Here I created the front-end on `./src` folder with the React `App.js`. In the front-end, 
   I created two class inputs: `Phone Number` and `Access Code`, and I retrieve them 
@@ -44,8 +46,8 @@ I could only create a `users` database in the back-end URL server.
 
   `npm install -g nodemon`
 
-- Then I adjusted the default port to `9000` in directory `.my-app/api/bin/www`. After that, I added `testAPI.js` into `./api/routes`
-  folder to test whether the api runs correctly. In the back-end, I utilized the `users.js` from directory `.my-app/api/routes`, 
+- Then I adjusted the default port to `9000` in directory `./my-app/api/bin/www`. After that, I added `testAPI.js` into `./api/routes`
+  folder to test whether the api runs correctly. In the back-end, I utilized the `users.js` from directory `./my-app/api/routes`, 
   followed by port `9000` to create the JSON database `users` with the URL as `http://localhost:9000/users`.
 
 - To run the back-end, I do the following when I reached `my-app`. 
