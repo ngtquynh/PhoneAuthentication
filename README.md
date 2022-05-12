@@ -38,7 +38,7 @@ I could only create a `users` database in the back-end URL server.
 
 
 ### Back-end
-- To create the back-end, I installed Express API from `my-app` folder. 
+- To create the back-end, I installed Express API from `coding-challenge` folder. 
 
   `npm install api --save`
 
@@ -50,9 +50,9 @@ I could only create a `users` database in the back-end URL server.
   folder to test whether the api runs correctly. In the back-end, I utilized the `users.js` from directory `./my-app/api/routes`, 
   followed by port `9000` to create the JSON database `users` with the URL as `http://localhost:9000/users`.
 
-- To run the back-end, I do the following when I reached `my-app`. 
+- To run the back-end, I do the following:
 
-  `cd api`
+  `cd coding-challenge/api`
 
   `npm start`
 
