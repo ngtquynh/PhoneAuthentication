@@ -76,9 +76,7 @@ My approach is to connect both the front-end and the back-end by using React.js 
 - Now, we input the same `Phone Number` with an `Access Code` we saw from the database. Let's say it is for 
   number `8098098098` and the code is `670964`. The front-end will generate `{success: true}`.
 
-  ```
-  https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png
-  ```
+  ![alt text](https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png)
 
 
 
@@ -92,7 +90,5 @@ My approach is to connect both the front-end and the back-end by using React.js 
 
 - If the `Access Code` does not match the one in the database, the front-end will generate `{success: false}`.
 
-  ```
-  https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png
-  ``` 
+  ![alt text](https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png)
 
