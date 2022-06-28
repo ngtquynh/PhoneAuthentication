@@ -12,7 +12,7 @@ My approach is to connect both the front-end and the back-end by using Google Fi
 
 ## Installation 
 
-- React is installed as `phone_athentication` folder.
+- React is installed as `phone_authentication` folder.
 
 - Express API is installed as the `api` folder.
 
