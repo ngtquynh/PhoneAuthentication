@@ -56,7 +56,7 @@ My approach is to connect both the front-end and the back-end by using Google Fi
   and run the default one for the back-end on the URL `http://localhost:9000/`. To see and track the stored inputs, we run  `http://localhost:9000/users/`.
 
 - Here we are ready to pass in the front-end a phone number. We only need to input `Phone Number` first to have the function
-  `CreateNewAccessCode` generates a random 6-digits code and adds it to the database. For example, the default data for 
+  `CreateNewAccessCode` generates a random 6-digits code and adds it to the database. For example, the default JSON for 
   `users` database is:
 
    ``{"success":true,"users":[{"phone":"1234567890","code":"763839"}]}``
