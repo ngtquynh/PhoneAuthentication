@@ -12,7 +12,7 @@ My approach is to connect both the front-end and the back-end by using React.js 
 
 ## Installation 
 
-- React is installed as `phone_authentication` folder.
+- React is installed as `PhoneAuthentication` folder.
 
 - Express API is installed as the `api` folder.
 
@@ -45,7 +45,7 @@ My approach is to connect both the front-end and the back-end by using React.js 
 
 ### Method
 - To recapture, we run the default port for front-end on the URL `http://localhost:3000/`, 
-  and run the default one for the back-end on the URL `http://localhost:9000/`. To see and track the stored inputs, we run  `http://localhost:9000/users/`.
+  and run the default one for the back-end on the URL `http://localhost:9000/`. To see and track the stored inputs, we run    `http://localhost:9000/users/`.
 
 - Here we are ready to pass in the front-end a phone number. We only need to input `Phone Number` first to have the function
   `CreateNewAccessCode` generates a random 6-digits code and adds it to the database. For example, the default JSON for 
