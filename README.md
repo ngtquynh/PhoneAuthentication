@@ -17,17 +17,16 @@ My approach is to connect both the front-end and the back-end by using React.js 
 - Express API is installed as the `api` folder.
 
 - Package `nodemon` is installed to debug on the back-end server:
-
-```
-npm install -g nodemon
-```
+  ```
+  npm install -g nodemon
+  ```
 
 ### Front-end
 
 - To start the front-end, I run the built-in command 
-```
-npm start
-```
+  ```
+  npm start
+  ```
 
 - Here I created the front-end on `./src` folder with the React file `App.js`. This file initiates the UI interface for both inputs `Phone Number` and `Access Code`. The URL to access the front-end after we started React is `http://localhost:3000/`.
 
@@ -36,10 +35,10 @@ npm start
 
 - To run the back-end, I do the following:
 
-```
-cd api
-npm start
-```
+  ```
+  cd api
+  npm start
+  ```
 
 - After that, the back-end server is generated, and the JSON database `users` is located in the URL `http://localhost:9000/users`.
 
