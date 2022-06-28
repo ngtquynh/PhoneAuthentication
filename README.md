@@ -2,14 +2,13 @@
 
 ## Introduction:
 
-In this project, I built an authentication system for user to input phone and for the full-stack system to verify the access code. Here I use React.js to create the UI where user can input either a 10-digit phone number or a 6-digit access code. To process the inputs, I use Express.js for two purposes: storing both inputs and veryfing the correct access code associated with the phone number.
+In this project, I built an authentication system for user to input their phone number and for the full-stack system to verify the access code. Here I use React.js to create the UI where the user can input a 10-digit phone number then a 6-digit access code to verify their account. To process the inputs, I use Express.js to construct the back end for two purposes: generating a random access code to that phone number and authenticating the access code from the user.
 
 
 ## Approach:
 
-My approach is to connect the React front-end with the Express back-end to process phone number data.
-For this problem, I was not able to finish adding Firebase into the front-end and back-end, but 
-I could only create a `users` database in the back-end URL server. 
+My approach is to connect the React front-end with the Express back-end to process the phone number data.
+For this problem, I was not able to add the Firebase database, so I create a database named `users` in the back-end URL server. 
 
 
 ## Available Scripts
