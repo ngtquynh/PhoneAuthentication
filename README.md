@@ -22,7 +22,7 @@ My approach is to connect both the front-end and the back-end by using Google Fi
 
 ### Front-end
 
-- To run the front-end, I run the built-in commands ```npm start```.
+- To start the front-end, I run the built-in command ```npm start```.
 
 - Here I created the front-end on `./src` folder with the React file `App.js`. This file initiates the UI interface for both inputs `Phone Number` and `Access Code`. The URL to access the front-end after we started React is `http://localhost:3000/`.
 
