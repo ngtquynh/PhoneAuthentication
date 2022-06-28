@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-In this project, I built an authentication system for user to input phone and for the full-stack system to verify the access code.
+In this project, I built an authentication system for user to input phone and for the full-stack system to verify the access code. Here I use React.js to create the UI where user can input either a 10-digit phone number or a the 6-digit access code. To process the inputs, I use Express.js for two purposes: storing both inputs and veryfing the correct access code associated with the phone number.
 
 
 ## Approach:
