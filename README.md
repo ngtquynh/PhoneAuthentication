@@ -7,8 +7,7 @@ In this project, I built an authentication system for user to input their phone 
 
 ## Approach:
 
-My approach is to connect the React front-end with the Express back-end to process the phone number data.
-For this problem, I was not able to add the Firebase database, so I create a database named `users` in the back-end URL server. 
+My approach is to connect both the front-end and the back-end by using Google FireBase. Since I was not able to add the Firebase database by the deadline, I created a database named `users` in the back-end URL server instead. 
 
 
 ## Available Scripts
