@@ -50,7 +50,7 @@ I could only create a `users` database in the back-end URL server.
   folder to test whether the api runs correctly. In the back-end, I utilized the `users.js` from directory `./my-app/api/routes`, 
   followed by port `9000` to create the JSON database `users` with the URL as `http://localhost:9000/users`.
 
-- To run the back-end, I do the following from the current folder:
+- To run the back-end, I do the following:
 
   `cd api`
 
