@@ -12,33 +12,22 @@ My approach is to connect both the front-end and the back-end by using Google Fi
 
 ## Installation 
 
-- In the project directory, I run the following to install a skeleton of React.
+- React is installed as `phone_athentication` folder.
 
-  `npx create-react-app my-app`
+- Express API is installed as the `api` folder.
 
-  `cd my-app`
+- Package `nodemon` is installed to debug on the back-end server:
 
+  `npm install -g nodemon`
 
 ### Front-end
 
-- To run the front-end, I do the following from `my-app` folder:
-  
-  `npm start`
-
-- Here the folder `my-app` has been changed to `coding_challenge`.
-
+- To run the front-end, I run the built-in commands ```npm start```.
 
 - Here I created the front-end on `./src` folder with the React file `App.js`. This file initiates the UI interface for both inputs `Phone Number` and `Access Code`. The URL to access the front-end after we started React is `http://localhost:3000/`.
 
 
 ### Back-end
-- To create the back-end, I installed Express API from `coding-challenge` folder. 
-
-  `npm install api --save`
-
-- I also installed `nodemon` to help with debugging on the back-end server:
-
-  `npm install -g nodemon`
 
 - To run the back-end, I do the following:
 
