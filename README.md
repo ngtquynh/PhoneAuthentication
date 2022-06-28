@@ -53,9 +53,7 @@ My approach is to connect both the front-end and the back-end by using Google Fi
 
 ### Method
 - To recapture, we run the default port for front-end on the URL `http://localhost:3000/`, 
-  and run the default one for the back-end on the URL `http://localhost:9000/` as two different servers.
-  However, to check the database input, we use  `http://localhost:9000/users/` instead to keep track 
-  of how the function changes.
+  and run the default one for the back-end on the URL `http://localhost:9000/`. To see and track the stored inputs, we run  `http://localhost:9000/users/`.
 
 - Here we are ready to pass in the front-end a phone number. We only need to input `Phone Number` first to have the function
   `CreateNewAccessCode` generates a random 6-digits code and adds it to the database. For example, the default data for 
@@ -64,16 +62,16 @@ My approach is to connect both the front-end and the back-end by using Google Fi
    ``{"success":true,"users":[{"phone":"1234567890","code":"763839"}]}``
 
 
-- Then let's say we submit `Phone Number` as `8098098098` to the front-end, then the backend generates the `AccessCode` as `321942`.
-  If we open the `users` URL, we would see the following JSON data in `http://localhost:9000/users/`.
+- For example, we submit `Phone Number` as `8098098098` to the front-end, then the backend generates the `AccessCode` as `321942`.
+  The `users` database then generates the following JSON.
 
-  ``{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"321942"}]}``
+  ``{"phone":"8098098098","code":"321942"}``
 
 
 
-- Now, if I submit `Phone Number` as `8098098098` again, the databases update the newly generated code.
+- If we submit `Phone Number` as `8098098098` again, the databases update the newly generated code.
 
-  ``{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":"670964"}]}``
+  ``{"phone":"8098098098","code":"670964"}``
 
 
 
@@ -84,9 +82,9 @@ My approach is to connect both the front-end and the back-end by using Google Fi
 
 
 
-- Then the `Phone Number` will be assigned to an empty string like the following in `http://localhost:9000/users/`.
+- Then `Phone Number` as `8098098098` is assigned to an empty string "".
 
-  ``{"success":true,"users":[{"phone":"1234567890","code":"763839"},{"phone":"8098098098","code":""}]}``
+  ``{"phone":"8098098098","code":""}``
 
 
 
