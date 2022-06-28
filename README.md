@@ -1,5 +1,11 @@
 # Coding challenge on creating a phone number and access code application
 
+## Introduction:
+
+In this project, I built an authentication system for user to input phone and for the full-stack system to verify the access code.
+
+
+## Approach:
 
 My approach is to connect the React front-end with the Express back-end to process phone number data.
 For this problem, I was not able to finish adding Firebase into the front-end and back-end, but 
@@ -57,7 +63,7 @@ I could only create a `users` database in the back-end URL server.
   `npm start`
 
 
-### Running together
+### Method
 - To recapture, we run the default port for front-end on the URL `http://localhost:3000/`, 
   and run the default one for the back-end on the URL `http://localhost:9000/` as two different servers.
   However, to check the database input, we use  `http://localhost:9000/users/` instead to keep track 
