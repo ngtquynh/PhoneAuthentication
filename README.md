@@ -50,15 +50,15 @@ My approach is to connect both the front-end and the back-end by using Google Fi
 
   `npm install -g nodemon`
 
-- Then I adjusted the default port to `9000` in directory `./my-app/api/bin/www`. After that, I added `testAPI.js` into `./api/routes`
-  folder to test whether the api runs correctly. In the back-end, I utilized the `users.js` from directory `./my-app/api/routes`, 
-  followed by port `9000` to create the JSON database `users` with the URL as `http://localhost:9000/users`.
-
 - To run the back-end, I do the following:
 
   `cd api`
 
   `npm start`
+
+- After that, the back-end server is generated, and the JSON database `users` is located in the URL `http://localhost:9000/users`.
+
+
 
 
 ### Method
