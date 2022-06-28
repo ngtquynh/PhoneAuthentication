@@ -10,7 +10,7 @@ In this project, I build an authentication system for user to input their phone 
 My approach is to connect both the front-end and the back-end by using Google FireBase. Since I was not able to add the Firebase database by the deadline, I created a database named `users` in the back-end URL server instead. 
 
 
-## Available Scripts
+## Installation 
 
 - In the project directory, I run the following to install a skeleton of React.
 
@@ -19,26 +19,16 @@ My approach is to connect both the front-end and the back-end by using Google Fi
   `cd my-app`
 
 
+### Front-end
+
 - To run the front-end, I do the following from `my-app` folder:
   
   `npm start`
 
-- Here the folder `my-app` has been changed to `coding_challenge`. However, the implementation is the same so I temporarily keep as `my-app`.
+- Here the folder `my-app` has been changed to `coding_challenge`.
 
-### Front-end
-- Here I created the front-end on `./src` folder with the React `App.js`. In the front-end, 
-  I created two class inputs: `Phone Number` and `Access Code`, and I retrieve them 
-  from two React files: `PhoneNumber.js` and `AccessCode.js`. I also added the validating conditions
-  in `validate.js`to make sure the server enforces `Phone Number` to be an integer and to have a maximum length 10 
-  to be able to fetch into the back-end. For the `Access Code` input,
-  I also only allow integer and maximum length as 6, and the same fetching method follows. Furthermore, 
-  my settings in `this.state` guarantee that the submit button is allowed only when I input the phone number first.
-  The default port for the front-end is `3000`, with the URL `http://localhost:3000/`.
 
-- Finally, I fetched the data by the `handleSubmit` key to pass the data to the back-end URL server and 
-  processed the data with two back-end functions: `CreateNewAccessCode` and `ValidateAccessCode`. This
-  is convenient since the front-end generates the POST functions automatically and adds the random code with
-  the `Phone Number` into the database.
+- Here I created the front-end on `./src` folder with the React file `App.js`. This file initiates the UI interface for both inputs `Phone Number` and `Access Code`. The URL to access the front-end after we started React is `http://localhost:3000/`.
 
 
 ### Back-end
