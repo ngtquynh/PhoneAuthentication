@@ -1,11 +1,11 @@
 # Coding challenge on creating a phone number and access code application
 
-## Introduction:
+## Introduction
 
 In this project, I build an authentication system for user to input their phone number and for the full-stack system to verify the access code. Here I use React.js to create the UI where the user can input a 10-digit phone number then a 6-digit access code to verify their account. To process the inputs, I use Express.js to construct the back end for two purposes: generating a random access code to that phone number and authenticating the access code from the user.
 
 
-## Approach:
+## Approach
 
 My approach is to connect both the front-end and the back-end by using React.js and Express.js. My future goal is to incorporate Google FireBase as the medium.
 
@@ -21,6 +21,7 @@ My approach is to connect both the front-end and the back-end by using React.js 
   npm install -g nodemon
   ```
 
+## Procedure
 ### Front-end
 
 - To start the front-end, I run the built-in command 
@@ -43,7 +44,8 @@ My approach is to connect both the front-end and the back-end by using React.js 
 - After that, the back-end server is generated, and the JSON database `users` is located in the URL `http://localhost:9000/users`.
 
 
-### Method
+## Demo
+
 - To recapture, we run the default port for front-end on the URL `http://localhost:3000/`, 
   and run the default one for the back-end on the URL `http://localhost:9000/`. To see and track the stored inputs, we run    `http://localhost:9000/users/`.
 
