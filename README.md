@@ -1,4 +1,4 @@
-# Coding challenge on creating a phone number and access code application
+# Authentication application from using phone number
 
 ## Introduction
 
