@@ -74,13 +74,13 @@ My approach is to connect both the front-end and the back-end by using React.js 
 
 
 - Now, we input the same `Phone Number` with an `Access Code` we saw from the database. As the phone number is `8098098098`, 
-  if we input the code `670964` then the UI generates `{success: true}`.
+  if we input the code `670964` then the UI returns `True`.
 
   ![alt text](https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png)
 
 
 
-- Then `Phone Number` as `8098098098` is assigned to an empty string "".
+- Then `Phone Number = 8098098098` is assigned to an empty string "".
 
   ```
   {"phone":"8098098098","code":""}
@@ -88,7 +88,7 @@ My approach is to connect both the front-end and the back-end by using React.js 
 
 
 
-- If the `Access Code` does not match the one in the database, the front-end will generate `{success: false}`.
+- If the `Access Code` is incorrect, the UI returns `False`.
 
   ![alt text](https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png)
 
