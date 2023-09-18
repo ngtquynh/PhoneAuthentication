@@ -58,11 +58,11 @@ My approach is to connect both the front-end and the back-end by using React.js 
    ```
 
 
-- For example, we submit `Phone Number` as `8098098098` to the front-end, then the backend generates the `AccessCode` as `321942`.
+- For example, we submit `Phone Number` as `8098098098` to the front-end, then the backend generates the `AccessCode` as `207765`.
   The `users` database then generates the following JSON.
 
   ```
-  {"phone":"8098098098","code":"321942"}
+  {"phone":"8098098098","code":"207765"}
   ```
 
 
@@ -70,7 +70,7 @@ My approach is to connect both the front-end and the back-end by using React.js 
 - If we submit `Phone Number` as `8098098098` again, the databases update the newly generated code.
 
   ```
-  {"phone":"8098098098","code":"670964"}
+  {"phone":"8098098098","code":"286796"}
   ```
 
 
@@ -78,7 +78,7 @@ My approach is to connect both the front-end and the back-end by using React.js 
 - Now, we input the same `Phone Number` with an `Access Code` we saw from the database. As the phone number is `8098098098`, 
   if we input the code `670964` then the UI returns `True`.
 
-  ![alt text](https://github.com/tungnguyen1234/coding_challenge/blob/main/True.png)
+  ![image](https://github.com/tungnguyen1234/PhoneAuthentication/assets/79737931/a0d153c7-5ccc-459f-a06d-eac9a3f3f7f5)
 
 
 
@@ -92,5 +92,7 @@ My approach is to connect both the front-end and the back-end by using React.js 
 
 - If the `Access Code` is incorrect, the UI returns `False`.
 
-  ![alt text](https://github.com/tungnguyen1234/coding_challenge/blob/main/False.png)
+ ![image](https://github.com/tungnguyen1234/PhoneAuthentication/assets/79737931/ccb4dbf0-5155-4902-a865-193b5f9b01db)
+
+
 
