@@ -1,0 +1,41 @@
+# Node.js dependencies
+node_modules/
+
+# Output of the build process
+build/
+dist/
+*.log
+
+# Environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE/Editor specific files
+.vscode/
+.idea/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Build files and dependencies
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directory
+.pnp/
+.pnp.js
+
+# Optional: Uncomment the lines below if you use TypeScript
+# .eslintcache
+# .vscode/
+# *.tsbuildinfo
+
+# Optional: Uncomment the line below if you use Yarn 2
+# .yarn/cache
+
+# Optional: Uncomment the line below if you use parcel-bundler
+# .cache/

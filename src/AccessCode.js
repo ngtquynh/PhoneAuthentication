@@ -1,5 +1,5 @@
 import React from "react";
-
+import './AccessCode.css'
 const AccessCode = props => {
 
     let formControl = "form-control";

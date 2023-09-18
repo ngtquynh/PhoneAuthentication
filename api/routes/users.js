@@ -14,8 +14,8 @@ router.post('/CreateNewAccessCode/', (req, res) => {
   const phone = req.body.data.phone;
   const code = Math.floor(100000 + Math.random() * 900000).toString();
   const check = users.filter((user) => user.phone === phone);
-  console.log("Phone is" + phone);
-  console.log("Check here" + check[0]);
+  console.log("Phone is " + phone);
+  console.log("Check here " + check[0]);
   if (!isNaN(phone)){
     if (check.length === 0){
       users.push({phone, code});

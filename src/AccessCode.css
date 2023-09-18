@@ -1,0 +1,48 @@
+/* AccessCode.css */
+
+/* Base styles for common elements */
+
+.form-group {
+    position: relative;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  .control-error {
+    border-color: #ff0000;
+  }
+  
+  /* Additional styling for the AccessCode component */
+  
+  .form-group::before {
+    content: "\f084"; /* Unicode for lock icon (FontAwesome) */
+    font-family: FontAwesome;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+    font-size: 20px;
+  }
+  
+  /* Error message styles (if needed) */
+  
+  .error-message {
+    color: #ff0000;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
